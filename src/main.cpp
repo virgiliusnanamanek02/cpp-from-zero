@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include "../introduction/hello.h"
+#include "../introduction/variables.h"
 
 int main(int argc, char *argv[]) {
-  std::cout << hello() << std::endl;
+  std::cout << variables()  << std::endl;
   return 0;
 }
